@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --Cyan-cta: hsl(176, 68%, 64%);
+  --Blue-cta: hsl(198, 60%, 50%);
+  --LightRed-err: hsl(0, 100%, 63%);
+  --darkblue-1: hsl(219, 30%, 18%);
+  --darkblue-1: hsl(217, 28%, 15%);
+  --darkblue-2: hsl(218, 28%, 13%);
+  --darkblue-4: hsl(216, 53%, 9%);
+  --fsize: 1.4rem;
+  --fw-reg: 400;
+  --fw-bold: 700;
+  --ff-raleway: 'Raleway';
+  --ff-openSans: 'Open Sans';
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* img {
+  display: block;
+  width: 100%;
+} */
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--ff-openSans), 'Courier New', Courier, monospace;
+  font-weight: var(--fw-reg);
+  font-size: var(--fsize);
+}
